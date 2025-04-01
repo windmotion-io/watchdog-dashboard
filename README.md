@@ -51,7 +51,7 @@ Create a configuration file in `config/initializers/watchdog_dashboard.rb`:
 
 ```ruby
 Watchdog::Dashboard.configure do |config|
-  config.watchdog_api_token = "your_secret_token" # Change this to a secure value
+  config.watchdog_api_token = "your_secret_token" # Change this to a secure value using an ENV var or rails credentials
 end
 ```
 
